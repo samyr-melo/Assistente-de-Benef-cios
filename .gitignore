@@ -1,0 +1,28 @@
+.env
+
+1. Configuração do Ambiente
+Primeiro, instale a biblioteca oficial da AWS (boto3) e uma para gerenciar variáveis de ambiente:
+
+pip install boto3 python-dotenv
+
+2. Armazenamento Seguro das Credenciais
+Crie um arquivo chamado .env na raiz do seu projeto. Nunca envie este arquivo para o GitHub.
+
+
+INTEGRAÇÃO COM FRONT --
+
+2. Flask ou FastAPI + React/Vue (A opção Profissional)
+Como você já tem experiência como Web Developer, esta é a opção que mais vai brilhar no seu portfólio. Você separa o "Cérebro" (Back-end) da "Cara" (Front-end).
+
+Back-end (Python): Você cria uma API usando FastAPI. Ela recebe a pergunta via JSON e retorna a resposta da IA.
+
+Front-end (React/JavaScript): Você cria um chat bonito (estilo WhatsApp ou ChatGPT) que consome essa API.
+
+Ideal para: Demonstrar que você domina a integração completa (Full Stack) entre IA e Desenvolvimento Web.
+
+CRIANDO:
+
+1. Preparando o Ambiente
+No seu terminal (com a .venv ativa), instale o FastAPI e o Uvicorn (que servirá o código):
+
+pip install fastapi uvicorn
