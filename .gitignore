@@ -1,5 +1,10 @@
 .env
 
+index.faiss
+index.pkl
+MENTAL-HEALTH-2024.pdf
+Programas-Care-plus.pdf
+
 1. Configuração do Ambiente
 Primeiro, instale a biblioteca oficial da AWS (boto3) e uma para gerenciar variáveis de ambiente:
 
